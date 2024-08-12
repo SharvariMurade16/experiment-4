@@ -2,7 +2,8 @@
 ## Aim-
 To study and implement c++ bitwise operators.
 ## Theory-
-Bitwise Operators
+Bitwise Operators-
+
 Bitwise AND (&): Sets a bit to 1 if both corresponding bits are 1. Otherwise, it’s 0. For example, 0101 & 0011 results in 0001.
 Bitwise OR (|): Sets a bit to 1 if at least one of the corresponding bits is 1. For example, 0101 | 0011 results in 0111.
 Bitwise XOR (^): Sets a bit to 1 if the corresponding bits are different. For example, 0101 ^ 0011 results in 0110.
