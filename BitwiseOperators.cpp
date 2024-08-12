@@ -2,21 +2,24 @@
 //23070123088
 //entc-b1
 
-#include <iostream>
+#include<iostream>
 using namespace std;
-int main(){
-    bool a;
-    bool b;
-    cout<<"Enter first number: ";
-    cin>>a;
-    cout<<"Enter second number: ";
-    cin>>b;
-    cout<<"Bitwise AND ("<<a<<"&"<<b<<"): "<<(a&b)<<endl;
-    cout<<"Bitwise OR ("<<a<<"|"<<b<<"): "<<(a|b)<<endl;
-    cout<<"Bitwise XOR ("<<a<<"^"<<b<<"): "<<(a^b)<<endl;
-    cout<<"Bitwise NOT (~"<<a<<"): "<<(~a)<<endl;
-    cout<<"Left Shift ("<<a<<"<<1): "<<(a<<1)<<endl;
-    cout<<"Right Shift ("<<a<<">>1): "<<(a>>1)<<endl;
-
+int main()
+{
+    int a=5;  //101
+    int b=3;  // 011
+    //bitwise AND
+    int bitwise_and =a&b;
+    int bitwise_or =a| b;
+    int bitwise_xor =a ^b;
+    int bitwise_not =-a;
+    int left_shift =a<<2;
+    int right_shift =a>> 1;
+    cout<<"AND:"<<bitwise_and<<endl;
+    cout<<"OR:"<<bitwise_or<<endl;
+    cout<<"XOR:"<<bitwise_xor<<endl;
+    cout<<"NOT a:"<<bitwise_not<<endl;
+    cout<<"Left shift:"<<left_shift<<endl;
+    cout<<"Right shift:"<<right_shift<<endl;
     return 0;
 }
