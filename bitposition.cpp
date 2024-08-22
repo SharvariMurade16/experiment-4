@@ -1,4 +1,8 @@
 ```
+//sharvari murade
+//23070123088
+//entc-b1
+
 #include <iostream>
 #include <bitset>
 using namespace std;
