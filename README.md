@@ -49,5 +49,39 @@ int main()
 
 ### Output-
 ![2B9D18E7-390B-48DE-B072-5309DC0607DE](https://github.com/user-attachments/assets/569c8c5a-498d-45d1-b48c-9fc0e96a463e)
+
+2-
+```
+//sharvari murade
+//23070123088
+//entc-b1
+
+#include <iostream>
+#include <bitset>
+using namespace std;
+
+int main() {
+    int num, set, reset;
+    // Input the number and bit positions to set and reset
+    cout << "Enter a number: ";
+    cin >> num;
+    cout << "Enter the bit position to set (0 to 7): ";
+    cin >> set;
+    cout << "Enter the bit position to reset (0 to 7): ";
+    cin >> reset;
+    // Display the original number in binary
+    std::cout << num << " in binary is " << std::bitset<8>(num) << std::endl;
+    // Set the bit at set_pos
+    int num_set = num | (1 << set);
+    std::cout << "Result after setting bit number " <<set<< " is " << std::bitset<8>(num_set) << std::endl;
+    // Reset the bit at reset_pos
+    int num_reset = num_set & ~(1 << reset);
+    std::cout << "Result after resetting bit number " <<reset<< " is " << std::bitset<8>(num_reset) << std::endl;
+    return 0;
+}
+```
+### Output-
+![7D18D409-B0FC-45FA-98E5-A5F8BE322421_4_5005_c](https://github.com/user-attachments/assets/9ec1d747-d46c-4d28-b87a-898f40ce7821)
+
 ## Conclusion-
 Bitwise operators provide low-level data manipulation capabilities. They are essential for optimizing algorithms and are commonly used in areas such as graphics, cryptography, and systems programming.
